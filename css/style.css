@@ -1,0 +1,47 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title {
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+    text-transform: capitalize;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.header-all {}
+
+.header-all ul {
+    display: flex;
+    align-items: center;
+}
+
+.header-all ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.header-all ul li a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.button-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 16px 35px;
+}
